@@ -1,4 +1,4 @@
-#DEMO
+# DEMO
 <img src="tribute.gif">This is a project from FreeCodeCamp whereby it is required to build a tribute page using css and html only, based on the following instructions given
 
 
