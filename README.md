@@ -1,4 +1,4 @@
 # Responsive-Web-Design
-A list of projects done from FreeCodeCamp
+A list of web design projects using css and html only done from FreeCodeCamp
 
 <li> Tribute Page </li>
