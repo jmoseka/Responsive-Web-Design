@@ -1,2 +1,2 @@
 DEMO
-<img src="landing-pg">
+<img src="landing-pg.gif">
