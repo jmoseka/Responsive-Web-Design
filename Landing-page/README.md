@@ -1,2 +1,2 @@
 DEMO
-<img src="landing-pg.gif">
+<img src="survey.mp4">
