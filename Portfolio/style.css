@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+{
+	font-family: 'Cookie', cursive;
+}
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+body {
+	width: 100%;
+	background-color: #2C2E43;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+nav{
+	width: 100vw;
+	background-color: #B2B1B9;
+	display: flex;
+	position: fixed;
+	margin: auto;
+	top: 0;
+	z-index: 2;
+	justify-content: flex-end;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-right: 30px;
+}
+
+nav a{
+	text-decoration: none;
+	padding: 10px;
+	color: #2C2E43;
+	font-weight: bold;
+	font-size: 20px;
+
+	
+}
+
+nav a:hover{
+	color: #5e6668;
+}
+
+#welcome-section{
+	text-align: center;
+	height: 100vh;
+	color: white;
+}
+
+.box{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #FFD523;	
+
+}
+
+.text1 {
+	margin-top: 25%;
+	font-size: 42px;
+}
+.text2{
+	margin-top: 40px;
+	font-family: 'Cookie', cursive;
+	font-size: 42px;
+}
+
+
+#projects{
+	border-top: 1px solid #595260;
+	border-bottom: 1px solid #595260;
+	width: 90%;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	color: white;
+
+}
+
+.project-header{
+	padding: 30px;
+	font-size: 30px;
+}
+
+#projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 40px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  padding-bottom: 30px;
+
+}
+
+.card{
+	color: #fff;
+	background-color: rgba(255,255,255,0.06);
+	border: 1px solid rgba(255,255,255,0.1);
+	width: 100%;
+	border-radius: 15px;
+	backdrop-filter: blur(10px);
+
+	}
+
+
+.card img{
+	width: 100%;
+}
+
+.link{
+	margin: 50px 60px 50px 60px;
+	background-color: white;
+	
+}
+
+.project-title{
+	font-size: 18px;
+	padding: 8px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.06);
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    border: none;
+    background-color: #FFD523;
+
+}
+
+
+
+.contact-section{
+	margin-top: 15px;
+	text-align: center;
+	color: white;
+	width: 100%;
+	
+}
+
+.contact-section h2{
+	margin-top: 20px;
+	font-size: 30px;
+}
+.contact-section p{
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+.contact-links{
+	display: flex;
+	justify-content: center;
+}
+
+.contact-links a{
+	padding: 2rem;
+	
+}
+
+ #contact-img-links{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	padding: 10px;	
+	background-color: white;
+}
+
+@media (max-width: 750px)
+{
+	.text1{
+		font-size: 35px;
+	}
+	.text2{
+		font-size: 35px;
+	}
+
+	.project-header {
+	font-size: 28px;
+}
+}
+
+@media (max-width: 650px)
+{
+	nav{
+		padding-left: 50px;
+		flex-direction: column;
+	}
+	nav a{
+		padding: 3px;
+		font-size: 18px;
+	}
+	.text1{
+		margin-top: 40%;
+		font-size: 28px;
+	}
+	.text2{
+		font-size: 28px;
+	}
+
+	.project-header {
+	padding: 27px;
+	font-size: 22px;
+}
+	
+}
+
+@media (max-width: 500px)
+{
+	nav a{
+		font-size: 16px;
+	}
+
+	.text1{
+		font-size: 25px;
+	}
+	.text2{
+		font-size: 25px;
+	}
+}
