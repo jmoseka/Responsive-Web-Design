@@ -17,20 +17,19 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	background-color: #f3f8f7;
-	font-family: font-family: 'Source Sans Pro', sans-serif;
-	letter-spacing: .5px; 
-	 word-spacing: 0.2px;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: .3px; 
+	 word-spacing: .1px;
 	 background-color: darkred;
 }
-p{
-	font-size: 2.4vmin;
-}
+
 main
 {
 	align-self: center;
 	width: 85vw;
 	text-align: center;
 	background-color: #f3f8f7;
+	font-size: 18px;
 	
 }
 
@@ -53,27 +52,12 @@ a{
 	
 }
 
-ul{
-	color: #1c1514;
-	list-style: none;
-	display: flex;
-}
-
-ul a{
-	font-size: 17px;
-	color: #1c1514;
-	color: #f3f8f7;
-	font-weight: bold;
-	padding: 15px;
-	
-}
-
 
 #title{
 	
 	font-family: 'Euphoria Script', cursive;
 	color: #c8292e;
-	font-size: 5.9vmax;
+	font-size: 60px;
 	margin: 0;
 
 }
@@ -81,7 +65,7 @@ ul a{
 {
 	font-family: 'Prompt', sans-serif;
 	color: #5e5351;
-	font-size: 1.5vw;
+	font-size: 18px;
 	margin: 0;
 	padding: 3px;
 }
@@ -103,7 +87,6 @@ ul a{
 #img-caption
 {
 	padding-top: 5px;
-	font-size: 1.9vmin
 }
 #tribute-info
 {
@@ -112,7 +95,7 @@ ul a{
 h2{
 	font-family: 'Prompt', sans-serif;
 	color: #5e5351;
-	font-size: 2.2vmax;
+	font-size: 19px;
 	
 }
 
@@ -124,7 +107,56 @@ section{
 }
 h3
 {
-	font-size: 2.8vmin;
-	text-align: center;S
+	font-size: 19px;
+	text-align: center;
 	margin: 1rem;
 }
+.caption{
+	font-size: 19px;
+}
+
+@media (max-width: 800px){
+
+	body{
+		word-spacing: 0px;
+	}
+	#title{
+		font-size: 45px;
+	}
+	#subtitle{
+		font-size: 18px;
+		padding: 0;
+	}
+	.caption, h3{
+		font-size: 16px;
+	}
+	main{
+		font-size: 15px;
+	}
+
+}
+
+@media (max-width: 400px){
+
+	body{
+		min-width: 300px;
+		word-spacing: 0px;
+	}
+	#title{
+		font-size: 40px;
+	}
+	#subtitle{
+		font-size: 14px;
+		padding: 0;
+	}
+	.caption, h3{
+		font-size: 13.5px;
+	}
+	main{
+		font-size: 13.5px;
+		width: 90%;
+	}
+
+}
+
+
