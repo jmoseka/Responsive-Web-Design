@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+{
+  font-family: 'Abel', sans-serif;
+}
+
+body{
+  background-color: #F1F6F9;
+  font-family: 'Abel', sans-serif;
+  font-weight: 500;
+}
+
+.title {
+  padding: 20px;
+  color: #F1F6F9;
+  
+}
+header{
+  font-size: 20px;
+  font-weight: 600;
+  color: #394867;
+  padding-top: 20px;
+
+}
+#navbar {
+  background-color: #14274E;
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  color: #F1F6F9;
+  padding-left: 10px;
+}
+
+#navbar li{
+list-style-type: none;
+padding: 3px;
+
+}
+#navbar a{
+  text-decoration: none;
+  color: #F1F6F9; 
+  margin-left: 30px;
+}
+
+#navbar active{
+  background-color: #9BA4B4;
+}
+
+nav li a:hover{
+
+  background-color: #9BA4B4;
+  color: yellow;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+  font-size: 16.2px;
+}
+
+
+
+
+
+
+
+
+
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #9BA4B4;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 170px;
+  }
+
+  #navbar {
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 255px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+   
+  }
+
+  #navbar ul{
+     padding-left: 20px;
+  }
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+    font-size: 15.5px;
+  }
+
+  header{
+  font-size: 18.5px;
+}
+}
