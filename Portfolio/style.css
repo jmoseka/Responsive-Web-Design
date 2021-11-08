@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 {
 	font-family: 'Cookie', cursive;
 }
@@ -13,7 +13,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
+	min-width: 300px;
 }
 
 nav{
@@ -57,13 +57,40 @@ nav a:hover{
 }
 
 .text1 {
-	margin-top: 25%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	position: relative;
+	margin-top: 20%;
 	font-size: 42px;
+	animation: text 3s 1;
+	
+	background-color: #2C2E43;
 }
 .text2{
-	margin-top: 40px;
+	
 	font-family: 'Cookie', cursive;
-	font-size: 42px;
+	font-size: 35px;
+}
+
+
+@keyframes text{
+	0%{
+		color: #c1c8c7;
+		letter-spacing: 8px;
+		margin-bottom: -4rem;
+		
+	}
+	30%{
+		letter-spacing: 8px;
+		margin-bottom: -4rem;
+	}
+    
+	85%{
+		letter-spacing: 2px;
+		margin-bottom: -2rem;
+		
+		
+	}
 }
 
 
@@ -85,7 +112,7 @@ nav a:hover{
 
 #projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-gap: 40px;
   width: 100%;
   max-width: 1280px;
@@ -153,7 +180,7 @@ nav a:hover{
 }
 
 .contact-links a{
-	padding: 2rem;
+	padding: 15px;
 	
 }
 
@@ -201,19 +228,50 @@ nav a:hover{
 	padding: 27px;
 	font-size: 22px;
 }
+
+.contact-section h2{
+	margin-top: 10px;
+	font-size: 22px;
+}
+.contact-section p{
+	margin-top: 6px;
+	font-size: 19px;
+}
 	
 }
 
-@media (max-width: 500px)
+@media (max-width: 450px)
 {
 	nav a{
 		font-size: 16px;
 	}
 
 	.text1{
-		font-size: 25px;
+		font-size: 20px;
 	}
 	.text2{
-		font-size: 25px;
+		font-size: 18px;
 	}
+
+	.contact-section h2{
+	margin-top: 10px;
+	font-size: 16px;
+}
+.contact-section p{
+	margin-top: 6px;
+	font-size: 15px;
+}
+
+#contact-img-links{
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	padding: 7px;	
+
+}
+
+.project-title{
+	font-size: 15px;
+	}
+
 }
